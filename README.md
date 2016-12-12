@@ -22,7 +22,9 @@ ffmpeg -i yourfile.mp3 -ss 00:00:00 -t 10 yourfile_10s.mp3
 - Set `CONTENT_FILENAME` and `STYLE_FILENAME` in the third cell of ipython notebook to your input files.
 - Run all cells.
 
-However, example inputs and outputs are already available in corresponding directories. Check out outputs/imperial_usa.wav, the result of mixing content of imperial march from star wars with style of american anthem!
+However, example inputs and outputs are already available in corresponding directories. 
+
+Check out `outputs/imperial_usa.wav`, the result of mixing content of imperial march from star wars with style of U.S. National Anthem!
 
 ### References
 - Original paper on style tranfer:
