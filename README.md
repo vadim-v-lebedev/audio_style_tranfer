@@ -9,7 +9,9 @@ This is a functional implementation of artistic style tranfer algorithm for audi
 
 **How to run:**
 - In case you want to use your own audio files as inputs, first cut them to 10s length: 
+```
 ffmpeg -i yourfile.mp3 -ss 00:00:00 -t 10 yourfile_10s.mp3
+```
 - Set CONTENT_FILENAME and STYLE_FILENAME in the third cell of ipython notebook to your input files
 - Run all cells
 
