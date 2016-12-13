@@ -29,7 +29,6 @@ The most frequent problem is domination of either content or style in the output
 [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
 - [Style transfer implementation in lasagne recipes](https://github.com/Lasagne/Recipes/blob/master/examples/styletransfer/Art%20Style%20Transfer.ipynb)
 - Publications on texture generation with random convolutions:
-
  - [Extreme Style Machines](https://nucl.ai/blog/extreme-style-machines/)
  - [Texture Synthesis Using Shallow Convolutional Networks with Random Filters](https://arxiv.org/abs/1606.00021)
  - [A Powerful Generative Model Using Random Weights for the Deep Image Representation](https://arxiv.org/pdf/1606.04801)
