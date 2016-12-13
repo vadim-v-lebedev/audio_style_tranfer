@@ -25,7 +25,7 @@ ffmpeg -i yourfile.mp3 -ss 00:00:00 -t 10 yourfile_10s.mp3
 The most frequent problem is domination of either content or style in the output. To fight this problem, adjust `ALPHA` parameter. Larger `ALPHA` means more content in the output, and `ALPHA=0` means no content, which reduces stylization to texture generation. Example output `outputs/imperial_usa.wav`, the result of mixing content of imperial march from star wars with style of U.S. National Anthem, was obtained with default value `ALPHA=1e-2`.
 
 ### References
-- Original paper on style tranfer:
+- Original paper on style transfer:
 [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
 - [Style transfer implementation in lasagne recipes](https://github.com/Lasagne/Recipes/blob/master/examples/styletransfer/Art%20Style%20Transfer.ipynb)
 - Publications on texture generation with random convolutions:
