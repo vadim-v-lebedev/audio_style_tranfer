@@ -1,6 +1,8 @@
 # Audio Style Transfer
 
-This is a functional implementation of artistic style transfer algorithm for audio, which uses convolutions with random weights to represent audio features. 
+This is an implementation of artistic style transfer algorithm for audio, which uses convolutions with random weights to represent audio features. 
+
+Also check out functionally identical implementations in [TensorFlow](https://github.com/DmitryUlyanov/neural-style-audio-tf) and [Torch](https://github.com/DmitryUlyanov/neural-style-audio-torch)
 
 ### Dependencies
 - python (tested with 2.7)
